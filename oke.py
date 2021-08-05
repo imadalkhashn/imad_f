@@ -529,10 +529,18 @@ def generate(text):
 				results.append(i+"123")
 				results.append(i+"12345")
 				results.append(i+"1234")
+                                results.append(i+"2021")
+                                results.append(i+"102030")
+                                results.append(i+"4321")
+                                results.append(i+"123456")
 			else:
 				results.append(i+"123")
 				results.append(i+"1234")
 				results.append(i+"12345")
+                                results.append(i+"102030")
+                                results.append(i+"2021")
+                                results.append(i+"4321")
+                                results.append(i+"123456")
 				results.append(i)
 				if "indonesia" in ips:
 					results.append("kontol")
