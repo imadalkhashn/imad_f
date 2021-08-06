@@ -185,9 +185,9 @@ def menu():
     login()
   os.system("clear")
   print logo
-  print ('\n *•> Nama : '+nm)
-  print (' *•> Akun ID : '+id)
-  print (' *•> Tanggal Lahir : '+tl)
+  print ('\n ☠ Nama : '+nm)
+  print (' ☠ Akun ID : '+id)
+  print (' ☠ Tanggal Lahir : '+tl)
 
   print ('\n *1 Crack ID Dari Teman')
   print (' *2 Crack ID Dari Publik')
@@ -195,7 +195,7 @@ def menu():
   print (' *4 Crack ID Dari Like')
   print (' *5 Lihat Hasil Crack')
   print (' *0 Keluar (Hapus Token/Cookies)\n')
-  mn=raw_input(" *-> Input : ")
+  mn=raw_input("  ♔☻♔ : ")
   if mn=="":
 	print (' *! Isi Dengan Benar')
 	menu()
