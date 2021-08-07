@@ -534,6 +534,7 @@ def generate(text):
                                 results.append(i+"4321")
                                 results.append(i+"123456")
                                 results.append(i+"1989")
+                                results.append("10203040")
 			else:
 				results.append(i+"123")
 				results.append(i+"1234")
@@ -543,13 +544,15 @@ def generate(text):
                                 results.append(i+"4321")
                                 results.append(i+"123456")
                                 results.append(i+"1989")
+                                results.append("10203040")
 				results.append(i)
-				if "indonesia" in ips:
+				if "lebanon" in ips:
 					results.append("kontol")
 					results.append("bangsat")
 					results.append("cintaku")
-					results.append("indonesia")
+					results.append("lebanon")
 					results.append("sayang")
+                                        results.append(i+"password")
 	return results
 class crack:
 	def __init__(self):
@@ -557,7 +560,7 @@ class crack:
 		self.cp=[]
 		self.ko=0
 		while True:
-			f=raw_input("\n *-> Password Auto/Manual (a/m) : ")
+			f=raw_input("\n √√√√√√√√√ Password Auto/Manual (a/m) : ")
 			if f=="":continue
 			elif f=="m":
 				try:
